@@ -13,6 +13,11 @@
   Give it a key of name with the value being your name, and another key of age with the value being your age. 
   Then alert your name using dot notation.
 */
+var me = {
+  name: "Justus",
+  age: 19
+};
+//alert(me.name);
 
 //Code here
 
@@ -24,7 +29,14 @@
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
   Have the values to those keys be your favorite thing in that category.
 */
-
+var favoriteThings = {
+  band: "idk",
+  food:'rice pudding',
+  person:'my wife',
+  book:'too hard to pick',
+  movie:'lala land',
+  holiday:'christmas'
+}
 //Code here
 
 
@@ -32,7 +44,8 @@
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
-
+favoriteThings.car = "porche 911";
+favoriteThings.brand = "idk";
 //Code here
 
 
@@ -40,7 +53,8 @@
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 //Code here
 
 
@@ -54,8 +68,10 @@
   Set the value of that key to 'chapstick'.
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
 */
-
-//Code here
+var backPack = {};
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'red';//Code here
 
 
 
@@ -95,7 +111,8 @@ var user2 = {
   name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
   Make that change without modifying the original object code above.
 */
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in'
 //Code Here
 
 
